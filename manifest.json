@@ -1,0 +1,22 @@
+{
+    "manifest_version": 3,
+    "name": "Link Manager",
+    "version": "1.0",
+    "description": "A Chrome extension to manage and organize links.",
+    "permissions": [
+        "storage"
+    ],
+    "action": {
+        "default_popup": "popup.html",
+        "default_icon": {
+            "16": "icon-32.png",
+            "48": "icon-64.png",
+            "128": "icon-128.png"
+        }
+    },
+    "icons": {
+        "16": "icon-32.png",
+        "48": "icon-64.png",
+        "128": "icon-128.png"
+    }
+}
